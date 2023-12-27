@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-vazir;
+}
+html {
+  scroll-behavior: smooth;
+ }
+body {
+  font-family: $font-vazir;
+}
+:root {
+  --font-700 : 700;
+  --font-600 : 600;
+  --font-400 : 400;
+  --primary-color : rgb(83, 86, 92);
+  --secondary-color : rgb(58, 61, 66);
+  --white-color : white;
+  --black-color : black;
+  --gray-color : gray;
+  --main-color : rgb(255, 0, 166);
+}
+a{
+  text-decoration: none !important;
+  cursor: pointer;
+}
+li{
+  list-style-type: none !important;
+}
+.flex{
+  display: flex;
+}
+.center{
+  display: flex;
+  flex-flow: column;
+}

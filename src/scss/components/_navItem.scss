@@ -1,0 +1,19 @@
+.navList {
+  &Img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+  }
+  &Title {
+    font-family: "vazir";
+    font-weight: var(--font-400);
+    font-size: 13px;
+    color: var(--secondary-color) !important;
+    text-align: initial;
+    text-align: center;
+    padding-top: 20px;
+  }
+  &Item {
+    margin: 0 auto;
+  }
+}
